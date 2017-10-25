@@ -14,44 +14,41 @@
         <scene sceneID="a6z-TQ-nYh">
             <objects>
                 <viewController storyboardIdentifier="login" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Yjm-v6-lX5" customClass="LoginViewController" customModule="viksitIOSApp" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="RbP-eo-9in">
+                    <view key="view" contentMode="scaleToFill" id="RbP-eo-9in">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="rJN-JU-yxw">
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="rJN-JU-yxw">
                                 <rect key="frame" x="0.0" y="20" width="375" height="647"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jMj-6a-8pF">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="270"/>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jMj-6a-8pF" userLabel="View1">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="129.5"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     </view>
-                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ErR-is-5By">
-                                        <rect key="frame" x="0.0" y="270" width="375" height="194"/>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ErR-is-5By" userLabel="View2">
+                                        <rect key="frame" x="0.0" y="129.5" width="375" height="194"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     </view>
-                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ig3-PI-C2q">
-                                        <rect key="frame" x="0.0" y="464" width="375" height="108"/>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ig3-PI-C2q" userLabel="View3">
+                                        <rect key="frame" x="0.0" y="323.5" width="375" height="194"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     </view>
-                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cNa-a1-O3x">
-                                        <rect key="frame" x="0.0" y="572" width="375" height="75"/>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cNa-a1-O3x" userLabel="View4">
+                                        <rect key="frame" x="0.0" y="517.5" width="375" height="129.5"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     </view>
                                 </subviews>
-                                <constraints>
-                                    <constraint firstItem="ig3-PI-C2q" firstAttribute="height" secondItem="rJN-JU-yxw" secondAttribute="height" multiplier="0.2" id="YNi-dH-6rj"/>
-                                    <constraint firstItem="ErR-is-5By" firstAttribute="height" secondItem="rJN-JU-yxw" secondAttribute="height" multiplier="0.3" id="lTG-E9-FLG"/>
-                                    <constraint firstItem="jMj-6a-8pF" firstAttribute="height" secondItem="rJN-JU-yxw" secondAttribute="height" multiplier="0.5" id="nJy-Tf-Jzs"/>
-                                    <constraint firstItem="ErR-is-5By" firstAttribute="top" secondItem="rJN-JU-yxw" secondAttribute="top" constant="270" id="uA9-lx-8gW"/>
-                                </constraints>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="FK2-d6-ag2" firstAttribute="bottom" secondItem="rJN-JU-yxw" secondAttribute="bottom" id="5J1-Ix-PcZ"/>
+                            <constraint firstItem="ig3-PI-C2q" firstAttribute="height" secondItem="FK2-d6-ag2" secondAttribute="height" multiplier="0.3" id="8QB-4Z-rC5"/>
+                            <constraint firstItem="jMj-6a-8pF" firstAttribute="height" secondItem="FK2-d6-ag2" secondAttribute="height" multiplier="0.2" id="DDM-9l-l0F"/>
                             <constraint firstItem="rJN-JU-yxw" firstAttribute="leading" secondItem="FK2-d6-ag2" secondAttribute="leading" id="QAa-Q2-s38"/>
+                            <constraint firstItem="cNa-a1-O3x" firstAttribute="height" secondItem="FK2-d6-ag2" secondAttribute="height" multiplier="0.2" id="SHL-C5-uZk"/>
                             <constraint firstItem="FK2-d6-ag2" firstAttribute="trailing" secondItem="rJN-JU-yxw" secondAttribute="trailing" id="Y0v-uc-d7m"/>
                             <constraint firstItem="rJN-JU-yxw" firstAttribute="top" secondItem="FK2-d6-ag2" secondAttribute="top" id="eEr-H2-1ol"/>
+                            <constraint firstItem="ErR-is-5By" firstAttribute="height" secondItem="FK2-d6-ag2" secondAttribute="height" multiplier="0.3" id="r54-Mw-82H"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="FK2-d6-ag2"/>
                     </view>
