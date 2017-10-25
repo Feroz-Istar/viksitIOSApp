@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Frh-2i-5Nn">
+    <device id="retina3_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Home View Controller-->
+        <scene sceneID="Uc1-Oa-8jS">
+            <objects>
+                <viewController storyboardIdentifier="home" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Frh-2i-5Nn" customClass="HomeViewController" customModule="viksitIOSApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="a5x-jk-JsI">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fEl-4K-Jxt">
+                                <rect key="frame" x="0.0" y="140" width="320" height="200"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="talentify_logo" translatesAutoresizingMaskIntoConstraints="NO" id="nEY-Ts-GV4">
+                                        <rect key="frame" x="120" y="0.0" width="80" height="80"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="80" id="5o2-DA-5vc"/>
+                                            <constraint firstAttribute="height" constant="80" id="VCY-Vc-QPe"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TALENTIFY" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ggk-1i-evU">
+                                        <rect key="frame" x="0.0" y="100" width="320" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="rPb-92-6sZ"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                        <color key="textColor" red="0.6470588235294118" green="0.6470588235294118" blue="0.6470588235294118" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="2Nc-7f-Ora"/>
+                                    <constraint firstItem="nEY-Ts-GV4" firstAttribute="centerX" secondItem="fEl-4K-Jxt" secondAttribute="centerX" id="4pm-7I-IER"/>
+                                    <constraint firstItem="ggk-1i-evU" firstAttribute="top" secondItem="nEY-Ts-GV4" secondAttribute="top" constant="100" id="HUg-o7-LGs"/>
+                                    <constraint firstItem="ggk-1i-evU" firstAttribute="leading" secondItem="fEl-4K-Jxt" secondAttribute="leading" id="MLl-Zg-kjf"/>
+                                    <constraint firstItem="nEY-Ts-GV4" firstAttribute="top" secondItem="fEl-4K-Jxt" secondAttribute="top" id="WWX-AA-gte"/>
+                                    <constraint firstAttribute="trailing" secondItem="ggk-1i-evU" secondAttribute="trailing" id="iby-TA-eWs"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J2u-PY-kBS">
+                                <rect key="frame" x="20" y="380" width="280" height="40"/>
+                                <color key="backgroundColor" red="0.92156862750000001" green="0.21960784310000001" blue="0.30980392159999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="dMp-JZ-mJ3"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <state key="normal" title="GET STARTED">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RB1-Rs-YMA">
+                                <rect key="frame" x="60" y="430" width="200" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="pgV-Vf-QHv"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="Already a member?">
+                                    <color key="titleColor" red="0.60784313725490191" green="0.60784313725490191" blue="0.60784313725490191" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="3Y8-In-ABC" kind="show" id="mMn-k2-DKi"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="5Us-cj-aio" firstAttribute="trailing" secondItem="fEl-4K-Jxt" secondAttribute="trailing" id="4Pt-Sb-CNE"/>
+                            <constraint firstItem="J2u-PY-kBS" firstAttribute="leading" secondItem="5Us-cj-aio" secondAttribute="leading" constant="20" id="GYs-mt-V1x"/>
+                            <constraint firstItem="5Us-cj-aio" firstAttribute="trailing" secondItem="RB1-Rs-YMA" secondAttribute="trailing" constant="60" id="QUh-3Z-z1g"/>
+                            <constraint firstItem="fEl-4K-Jxt" firstAttribute="centerY" secondItem="a5x-jk-JsI" secondAttribute="centerY" id="eQB-hl-0Ok"/>
+                            <constraint firstItem="RB1-Rs-YMA" firstAttribute="top" secondItem="J2u-PY-kBS" secondAttribute="bottom" constant="10" id="lyS-NJ-xMF"/>
+                            <constraint firstItem="5Us-cj-aio" firstAttribute="bottom" secondItem="RB1-Rs-YMA" secondAttribute="bottom" constant="10" id="pfe-0Z-3Jg"/>
+                            <constraint firstItem="5Us-cj-aio" firstAttribute="trailing" secondItem="J2u-PY-kBS" secondAttribute="trailing" constant="20" id="rxI-i3-cRH"/>
+                            <constraint firstItem="RB1-Rs-YMA" firstAttribute="leading" secondItem="5Us-cj-aio" secondAttribute="leading" constant="60" id="slh-u3-GlF"/>
+                            <constraint firstItem="fEl-4K-Jxt" firstAttribute="centerX" secondItem="a5x-jk-JsI" secondAttribute="centerX" id="xtl-M7-YT7"/>
+                            <constraint firstItem="fEl-4K-Jxt" firstAttribute="leading" secondItem="5Us-cj-aio" secondAttribute="leading" id="yZv-2g-N7N"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="5Us-cj-aio"/>
+                    </view>
+                    <connections>
+                        <outlet property="alreadyAMember" destination="RB1-Rs-YMA" id="x1C-ZS-58M"/>
+                        <outlet property="appname" destination="ggk-1i-evU" id="hGO-IY-u6x"/>
+                        <outlet property="getStarted" destination="J2u-PY-kBS" id="bow-4Z-6Dh"/>
+                        <outlet property="logo" destination="nEY-Ts-GV4" id="YBs-Zm-Prv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Z2E-YB-QAh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="500.625" y="-252.5"/>
+        </scene>
+        <!--login-->
+        <scene sceneID="E7D-ax-tuB">
+            <objects>
+                <viewControllerPlaceholder storyboardName="LoginStoryboard" referencedIdentifier="login" id="3Y8-In-ABC" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YdK-IN-Fg3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1056" y="-435"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="talentify_logo" width="45" height="45"/>
+    </resources>
+</document>

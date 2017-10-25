@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		79CB4D92FD93E0F3270E2141 /* Pods_viksitIOSAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B247B6F051FF1F265D68D47A /* Pods_viksitIOSAppUITests.framework */; };
+		9D0A35FCCD651CDF9BED18DB /* Pods_viksitIOSApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3DE34083D5DA01A1B543301 /* Pods_viksitIOSApp.framework */; };
+		B91002931F97FE0900A58072 /* iOSDevCenters+GIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91002921F97FE0900A58072 /* iOSDevCenters+GIF.swift */; };
+		B91002971F9804F800A58072 /* loading.gif in Resources */ = {isa = PBXBuildFile; fileRef = B91002961F9804E600A58072 /* loading.gif */; };
 		B9157AD81F8FB18B008CEB59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9157AD71F8FB18B008CEB59 /* AppDelegate.swift */; };
 		B9157ADA1F8FB18B008CEB59 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9157AD91F8FB18B008CEB59 /* ViewController.swift */; };
 		B9157ADD1F8FB18B008CEB59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9157ADB1F8FB18B008CEB59 /* Main.storyboard */; };
@@ -14,6 +18,14 @@
 		B9157AE21F8FB18B008CEB59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9157AE01F8FB18B008CEB59 /* LaunchScreen.storyboard */; };
 		B9157AED1F8FB18B008CEB59 /* viksitIOSAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9157AEC1F8FB18B008CEB59 /* viksitIOSAppTests.swift */; };
 		B9157AF81F8FB18B008CEB59 /* viksitIOSAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9157AF71F8FB18B008CEB59 /* viksitIOSAppUITests.swift */; };
+		B9157B071F8FB2A7008CEB59 /* HomeStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9157B061F8FB2A7008CEB59 /* HomeStoryboard.storyboard */; };
+		B9157B091F8FB2BD008CEB59 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9157B081F8FB2BD008CEB59 /* HomeViewController.swift */; };
+		B9157B0C1F8FFFC2008CEB59 /* ViksitLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9157B0B1F8FFFC2008CEB59 /* ViksitLabel.swift */; };
+		B9157B0E1F900044008CEB59 /* ViksitButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9157B0D1F900044008CEB59 /* ViksitButton.swift */; };
+		B9157B111F900B48008CEB59 /* LoginStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9157B101F900B48008CEB59 /* LoginStoryboard.storyboard */; };
+		B9157B131F900B5F008CEB59 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9157B121F900B5F008CEB59 /* LoginViewController.swift */; };
+		B9157B151F90D371008CEB59 /* CircularButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9157B141F90D371008CEB59 /* CircularButton.swift */; };
+		E7121664E6B3E8145391D8AD /* Pods_viksitIOSAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3268BBDA6705E4E2B31119C4 /* Pods_viksitIOSAppTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +46,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0142525BAA29AC3A9B8EC6A7 /* Pods-viksitIOSApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-viksitIOSApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-viksitIOSApp/Pods-viksitIOSApp.debug.xcconfig"; sourceTree = "<group>"; };
+		04094F7B88560F0A3368F3C2 /* Pods-viksitIOSAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-viksitIOSAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-viksitIOSAppUITests/Pods-viksitIOSAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		0E4E08AA2AE45401D333A8A9 /* Pods-viksitIOSApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-viksitIOSApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-viksitIOSApp/Pods-viksitIOSApp.release.xcconfig"; sourceTree = "<group>"; };
+		3268BBDA6705E4E2B31119C4 /* Pods_viksitIOSAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_viksitIOSAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		96AA5FB0888FA5623BC70801 /* Pods-viksitIOSAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-viksitIOSAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-viksitIOSAppTests/Pods-viksitIOSAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		B247B6F051FF1F265D68D47A /* Pods_viksitIOSAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_viksitIOSAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B90A66A4F9CA5B10CEE7F0D4 /* Pods-viksitIOSAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-viksitIOSAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-viksitIOSAppUITests/Pods-viksitIOSAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B91002921F97FE0900A58072 /* iOSDevCenters+GIF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "iOSDevCenters+GIF.swift"; sourceTree = "<group>"; };
+		B91002961F9804E600A58072 /* loading.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loading.gif; sourceTree = "<group>"; };
 		B9157AD41F8FB18B008CEB59 /* viksitIOSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = viksitIOSApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9157AD71F8FB18B008CEB59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B9157AD91F8FB18B008CEB59 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +68,15 @@
 		B9157AF31F8FB18B008CEB59 /* viksitIOSAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = viksitIOSAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9157AF71F8FB18B008CEB59 /* viksitIOSAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viksitIOSAppUITests.swift; sourceTree = "<group>"; };
 		B9157AF91F8FB18B008CEB59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9157B061F8FB2A7008CEB59 /* HomeStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomeStoryboard.storyboard; sourceTree = "<group>"; };
+		B9157B081F8FB2BD008CEB59 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		B9157B0B1F8FFFC2008CEB59 /* ViksitLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViksitLabel.swift; sourceTree = "<group>"; };
+		B9157B0D1F900044008CEB59 /* ViksitButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViksitButton.swift; sourceTree = "<group>"; };
+		B9157B101F900B48008CEB59 /* LoginStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginStoryboard.storyboard; sourceTree = "<group>"; };
+		B9157B121F900B5F008CEB59 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		B9157B141F90D371008CEB59 /* CircularButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularButton.swift; sourceTree = "<group>"; };
+		D3DE34083D5DA01A1B543301 /* Pods_viksitIOSApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_viksitIOSApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECD9FAFC570A9AF83FBF4E56 /* Pods-viksitIOSAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-viksitIOSAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-viksitIOSAppTests/Pods-viksitIOSAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D0A35FCCD651CDF9BED18DB /* Pods_viksitIOSApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7121664E6B3E8145391D8AD /* Pods_viksitIOSAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +100,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79CB4D92FD93E0F3270E2141 /* Pods_viksitIOSAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9C88B3D67DEA1BDCB596A805 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0142525BAA29AC3A9B8EC6A7 /* Pods-viksitIOSApp.debug.xcconfig */,
+				0E4E08AA2AE45401D333A8A9 /* Pods-viksitIOSApp.release.xcconfig */,
+				ECD9FAFC570A9AF83FBF4E56 /* Pods-viksitIOSAppTests.debug.xcconfig */,
+				96AA5FB0888FA5623BC70801 /* Pods-viksitIOSAppTests.release.xcconfig */,
+				04094F7B88560F0A3368F3C2 /* Pods-viksitIOSAppUITests.debug.xcconfig */,
+				B90A66A4F9CA5B10CEE7F0D4 /* Pods-viksitIOSAppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B9157ACB1F8FB18B008CEB59 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +127,8 @@
 				B9157AEB1F8FB18B008CEB59 /* viksitIOSAppTests */,
 				B9157AF61F8FB18B008CEB59 /* viksitIOSAppUITests */,
 				B9157AD51F8FB18B008CEB59 /* Products */,
+				9C88B3D67DEA1BDCB596A805 /* Pods */,
+				D48D94DBAF2114CC2C71EDD3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,7 +145,11 @@
 		B9157AD61F8FB18B008CEB59 /* viksitIOSApp */ = {
 			isa = PBXGroup;
 			children = (
+				B91002961F9804E600A58072 /* loading.gif */,
+				B9157B0F1F900B30008CEB59 /* login */,
+				B9157B0A1F8FFFA6008CEB59 /* viewutil */,
 				B9157AD71F8FB18B008CEB59 /* AppDelegate.swift */,
+				B9157B051F8FB294008CEB59 /* home */,
 				B9157AD91F8FB18B008CEB59 /* ViewController.swift */,
 				B9157ADB1F8FB18B008CEB59 /* Main.storyboard */,
 				B9157ADE1F8FB18B008CEB59 /* Assets.xcassets */,
@@ -125,6 +177,45 @@
 			path = viksitIOSAppUITests;
 			sourceTree = "<group>";
 		};
+		B9157B051F8FB294008CEB59 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				B9157B061F8FB2A7008CEB59 /* HomeStoryboard.storyboard */,
+				B9157B081F8FB2BD008CEB59 /* HomeViewController.swift */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		B9157B0A1F8FFFA6008CEB59 /* viewutil */ = {
+			isa = PBXGroup;
+			children = (
+				B9157B0B1F8FFFC2008CEB59 /* ViksitLabel.swift */,
+				B9157B0D1F900044008CEB59 /* ViksitButton.swift */,
+				B9157B141F90D371008CEB59 /* CircularButton.swift */,
+				B91002921F97FE0900A58072 /* iOSDevCenters+GIF.swift */,
+			);
+			path = viewutil;
+			sourceTree = "<group>";
+		};
+		B9157B0F1F900B30008CEB59 /* login */ = {
+			isa = PBXGroup;
+			children = (
+				B9157B101F900B48008CEB59 /* LoginStoryboard.storyboard */,
+				B9157B121F900B5F008CEB59 /* LoginViewController.swift */,
+			);
+			path = login;
+			sourceTree = "<group>";
+		};
+		D48D94DBAF2114CC2C71EDD3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D3DE34083D5DA01A1B543301 /* Pods_viksitIOSApp.framework */,
+				3268BBDA6705E4E2B31119C4 /* Pods_viksitIOSAppTests.framework */,
+				B247B6F051FF1F265D68D47A /* Pods_viksitIOSAppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +223,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B9157AFC1F8FB18B008CEB59 /* Build configuration list for PBXNativeTarget "viksitIOSApp" */;
 			buildPhases = (
+				268B4A0274E443656E70A0B4 /* [CP] Check Pods Manifest.lock */,
 				B9157AD01F8FB18B008CEB59 /* Sources */,
 				B9157AD11F8FB18B008CEB59 /* Frameworks */,
 				B9157AD21F8FB18B008CEB59 /* Resources */,
+				4B93E0F41249240B0F47A2A7 /* [CP] Embed Pods Frameworks */,
+				26540EEFC80BC021065F9E73 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +243,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B9157AFF1F8FB18B008CEB59 /* Build configuration list for PBXNativeTarget "viksitIOSAppTests" */;
 			buildPhases = (
+				12DD3D11273B5E79AD2D9EFC /* [CP] Check Pods Manifest.lock */,
 				B9157AE41F8FB18B008CEB59 /* Sources */,
 				B9157AE51F8FB18B008CEB59 /* Frameworks */,
 				B9157AE61F8FB18B008CEB59 /* Resources */,
+				865B540B8EB339A4B62ACB4A /* [CP] Embed Pods Frameworks */,
+				850774DC57883F06BD15192A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +264,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B9157B021F8FB18B008CEB59 /* Build configuration list for PBXNativeTarget "viksitIOSAppUITests" */;
 			buildPhases = (
+				01B9A86C472666926CFCC013 /* [CP] Check Pods Manifest.lock */,
 				B9157AEF1F8FB18B008CEB59 /* Sources */,
 				B9157AF01F8FB18B008CEB59 /* Frameworks */,
 				B9157AF11F8FB18B008CEB59 /* Resources */,
+				6702774E691F38E894C5C776 /* [CP] Embed Pods Frameworks */,
+				1653256A350FF28CE803E9E2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -233,7 +333,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B9157AE21F8FB18B008CEB59 /* LaunchScreen.storyboard in Resources */,
+				B9157B111F900B48008CEB59 /* LoginStoryboard.storyboard in Resources */,
 				B9157ADF1F8FB18B008CEB59 /* Assets.xcassets in Resources */,
+				B91002971F9804F800A58072 /* loading.gif in Resources */,
+				B9157B071F8FB2A7008CEB59 /* HomeStoryboard.storyboard in Resources */,
 				B9157ADD1F8FB18B008CEB59 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,13 +357,157 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		01B9A86C472666926CFCC013 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		12DD3D11273B5E79AD2D9EFC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1653256A350FF28CE803E9E2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-viksitIOSAppUITests/Pods-viksitIOSAppUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		26540EEFC80BC021065F9E73 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-viksitIOSApp/Pods-viksitIOSApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		268B4A0274E443656E70A0B4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4B93E0F41249240B0F47A2A7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-viksitIOSApp/Pods-viksitIOSApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6702774E691F38E894C5C776 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-viksitIOSAppUITests/Pods-viksitIOSAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		850774DC57883F06BD15192A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-viksitIOSAppTests/Pods-viksitIOSAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		865B540B8EB339A4B62ACB4A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-viksitIOSAppTests/Pods-viksitIOSAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B9157AD01F8FB18B008CEB59 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9157B131F900B5F008CEB59 /* LoginViewController.swift in Sources */,
+				B91002931F97FE0900A58072 /* iOSDevCenters+GIF.swift in Sources */,
 				B9157ADA1F8FB18B008CEB59 /* ViewController.swift in Sources */,
 				B9157AD81F8FB18B008CEB59 /* AppDelegate.swift in Sources */,
+				B9157B0C1F8FFFC2008CEB59 /* ViksitLabel.swift in Sources */,
+				B9157B0E1F900044008CEB59 /* ViksitButton.swift in Sources */,
+				B9157B091F8FB2BD008CEB59 /* HomeViewController.swift in Sources */,
+				B9157B151F90D371008CEB59 /* CircularButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +671,7 @@
 		};
 		B9157AFD1F8FB18B008CEB59 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0142525BAA29AC3A9B8EC6A7 /* Pods-viksitIOSApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -439,6 +687,7 @@
 		};
 		B9157AFE1F8FB18B008CEB59 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E4E08AA2AE45401D333A8A9 /* Pods-viksitIOSApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +703,7 @@
 		};
 		B9157B001F8FB18B008CEB59 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECD9FAFC570A9AF83FBF4E56 /* Pods-viksitIOSAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -470,6 +720,7 @@
 		};
 		B9157B011F8FB18B008CEB59 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96AA5FB0888FA5623BC70801 /* Pods-viksitIOSAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -486,6 +737,7 @@
 		};
 		B9157B031F8FB18B008CEB59 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04094F7B88560F0A3368F3C2 /* Pods-viksitIOSAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -501,6 +753,7 @@
 		};
 		B9157B041F8FB18B008CEB59 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B90A66A4F9CA5B10CEE7F0D4 /* Pods-viksitIOSAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
